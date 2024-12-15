@@ -2,6 +2,8 @@
   <img src="docs/images/store-logo.webp" height="128">
   <h1 align="center">Raycast Script Commands</h1>
 </p>
+![Script Command Banner](docs/images/script-commands-readme-header.png)
+
  ⌘ Raycast自定义脚本命令
 
 ## 资源链接
