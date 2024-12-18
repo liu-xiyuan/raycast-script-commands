@@ -22,6 +22,6 @@ tell application "System Events"
 
     key code 4 using {control down, option down,command down} -- Maximize Height的快捷键
 
-    key code 124 using {control down, option down,command down} -- Move Right的快捷键
+    key code 124 using {shift down, option down,command down} -- Move Right的快捷键
 end tell
 EOF
