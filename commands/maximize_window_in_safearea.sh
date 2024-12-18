@@ -16,12 +16,13 @@
 osascript <<EOF
 tell application "System Events"
 
-    key code 3 using {shift down, option down, command down} -- Almost Maximize的快捷键
+    key code 8 using {control down, option down,command down} -- 系统窗口居中快捷键
+    delay 0.55
 
-    -- delay 0.1
-
-    key code 4 using {control down, option down,command down} -- Maximize Height的快捷键
-
-    key code 124 using {shift down, option down,command down} -- Move Right的快捷键
 end tell
 EOF
+
+open -g raycast://extensions/raycast/window-management/almost-maximize
+open -g raycast://extensions/raycast/window-management/maximize-height
+sleep 0.05
+open -g raycast://extensions/raycast/window-management/move-right
