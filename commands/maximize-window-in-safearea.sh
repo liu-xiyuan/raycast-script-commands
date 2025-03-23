@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon icons/maximize_window_in_safearea_icon.png
+# @raycast.icon icons/maximize-window-in-safearea-icon.png
 
 # Documentation:
 # @raycast.description Windows Management中Creat Layout的替代方案
