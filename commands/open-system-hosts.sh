@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open System Hosts
-# @raycast.mode fullOutput
+# @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon icons/open-system-hosts-icon.png
