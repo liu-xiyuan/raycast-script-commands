@@ -3,6 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Maximize Window in Safe Area
+# @raycast.packageName Window Workspace
 # @raycast.mode silent
 
 # Optional parameters:
@@ -23,5 +24,5 @@ end tell
 EOF
 
 open -g raycast://extensions/raycast/window-management/bottom-three-fourths
-sleep 0.01
+# sleep 0.01
 open -g raycast://extensions/raycast/window-management/maximize-height
